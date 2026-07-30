@@ -1,8 +1,27 @@
 aid: kirilys-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kirilys-therapeutics.png
 name: Kirilys Therapeutics
-description: Kirilys Therapeutics is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Kirilys Therapeutics is a multi-asset precision oncology company developing
+  targeted therapeutic treatments for cancer patients. Led by co-founder and CEO
+  BT Slingsby, MD, PhD, MPH, the company is building a pipeline of precision
+  medicines and is backed by Catalys Pacific, Lightspeed Venture Partners, and
+  UBE. Kirilys was surfaced as a portfolio company of Lightspeed Venture
+  Partners and added to the API Evangelist network. As a clinical-stage biotech,
+  Kirilys publishes a corporate marketing website (company, news, and contact
+  pages) but exposes no public developer API, SDK, documentation, or machine
+  discovery surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/kirilys-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Therapeutics
+- Oncology
+- Biotechnology
+- Pharmaceuticals
+- Precision Medicine
+- Healthcare
+- Drug Development
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kirilys-therapeutics-domain-security.yml
+- type: Website
+  url: https://kirilystx.com/
+- type: News
+  url: https://kirilystx.com/news/
+- type: Blog
+  url: https://kirilystx.com/news/
+- type: Support
+  url: https://kirilystx.com/contact/
+- type: PrivacyPolicy
+  url: https://kirilystx.com/privacy-policy/
+- type: TermsOfService
+  url: https://kirilystx.com/terms-conditions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
